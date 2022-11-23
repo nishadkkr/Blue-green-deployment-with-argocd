@@ -7,7 +7,7 @@ spec:
   hosts:
   - "*"
   gateways:
-  -  blue-green-gateway
+  - blue-green-gateway
   http:
   - match:
     - uri:
