@@ -33,5 +33,5 @@ spec:
     targetPort: http
     protocol: TCP 
   selector: 
-    name: blue-deploy 
+    name: green-deploy 
   type: NodePort
