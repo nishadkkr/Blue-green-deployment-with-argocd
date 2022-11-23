@@ -1,0 +1,24 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: rollout-bluegreen-active
+  namespace: blue-green
+spec:
+  selector:
+    app: rollout-bluegreen
+  ports:
+  - port: 6789
+    name: http
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: rollout-bluegreen-preview
+  namespace: blue-green
+spec:
+  selector:
+    app: rollout-bluegreen
+  ports:
+  - port: 6789
+    name: http
