@@ -6,6 +6,7 @@ metadata:
 spec:
   selector:
     app: rollout-bluegreen
+  type: NodePort
   ports:
   - port: 6789
     name: http
@@ -19,6 +20,7 @@ metadata:
 spec:
   selector:
     app: rollout-bluegreen
+  type: NodePort
   ports:
   - port: 6789
     name: http
