@@ -11,11 +11,11 @@ spec:
   http:
   - match:
     - uri:
-        exact: /
+        exact: /hello
     - uri: 
-        prefix: /
+        prefix: /hello
     route:
     - destination:
-        host: /
+        host: "rollout-bluegreen-active.blue-green.svc.cluster.local"
         port:
           number: 6789
