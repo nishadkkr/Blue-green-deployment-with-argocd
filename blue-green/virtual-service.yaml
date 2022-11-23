@@ -16,6 +16,6 @@ spec:
         prefix: /
     route:
     - destination:
-        host: "rollout-bluegreen-blue.blue-green.svc.cluster.local"
+        host: /
         port:
           number: 6789
