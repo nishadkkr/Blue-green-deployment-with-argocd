@@ -11,9 +11,9 @@ spec:
   http:
   - match:
     - uri:
-        exact: /hello
+        exact: /
     - uri: 
-        prefix: /hello
+        prefix: /
     route:
     - destination:
         host: "rollout-bluegreen-active.blue-green.svc.cluster.local"
