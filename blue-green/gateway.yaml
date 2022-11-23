@@ -1,7 +1,7 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
-  name: blue-green-gateway
+  name: bluegreen-gateway
 spec:
   selector:
     istio: ingressgateway # use istio default controller
