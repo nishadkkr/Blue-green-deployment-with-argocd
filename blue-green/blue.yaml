@@ -26,12 +26,12 @@ kind: Service
 metadata:
   name: blue-deploy
   labels: 
-    name: blue-deploy
+    name: green-deploy
 spec: 
   ports: 
   - port: 80 
     targetPort: http
     protocol: TCP 
   selector: 
-    name: green-deploy 
+    name: blue-deploy 
   type: NodePort
