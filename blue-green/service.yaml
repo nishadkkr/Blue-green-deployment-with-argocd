@@ -8,7 +8,7 @@ spec:
     app: rollout-bluegreen
   type: NodePort
   ports:
-  - port: 6789
+  - port: 8080
     name: http
 
 ---
@@ -22,5 +22,5 @@ spec:
     app: rollout-bluegreen
   type: NodePort
   ports:
-  - port: 6789
+  - port: 8080
     name: http

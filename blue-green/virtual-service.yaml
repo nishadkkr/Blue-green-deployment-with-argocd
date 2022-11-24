@@ -18,4 +18,4 @@ spec:
     - destination:
         host: "rollout-bluegreen-active.blue-green.svc.cluster.local"
         port:
-          number: 6789
+          number: 8080
